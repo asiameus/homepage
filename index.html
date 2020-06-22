@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia Meuś</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/bookTable__container.css" rel="stylesheet">
+    <link href="css/bookTable.css" rel="stylesheet">
+    <link href="css/links.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__header">Asia Meuś</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#co-lubie">Co lubię</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#linki">Linki</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <img class="main__image" width="240" src="https://i.ibb.co/s2T8w8c/100796774-645031086092962-1206782035176194048-n.jpg"
+            alt="portret Asi Meuś">
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <p class="section__paragraph"> Urodziłam się i mieszkam w Warszawie. <i>Kocham to miasto, jego różnorodność
+                    i
+                    bałagan.</i><br>Studiowałam Filologię
+                angielską na Uniwersytecie Warszawskim oraz Sztukę Mediów na Akademii Sztuk Pięknych.<br>Od kilku lat
+                jestem
+                graficzką, pracowałam w Centrum Nauki Kopernik. <strong>Teraz skupiam się na typografii, projektowaniu i
+                    składzie
+                    książek.</strong></p>
+        </section>
+        <section class="section" id="co-lubie">
+            <h2 class="section__header">Co lubię</h2>
+            <p class="section__paragraph">Lubię czytać książki i robić zdjęcia. <b>Fotografuję aparatami
+                    <em>analogowymi</em>,
+                    dokumentuję
+                    codzienność.</b><br>Czarno-białe filmy wywołuję sama, czasem pracuję też w domowej ciemni i robię
+                odbitki.<br>Lubię też
+                rośliny i dobre jedzenie.</p>
+        </section>
+        <div class="bookTable__container">
+            <table class="bookTable">
+                <caption class="bookTable__caption">Moje ulubione książki o projektowaniu graficznym</caption>
+                <tr>
+                    <th class="bookTable__cell" scope="col">Tytuł</th>
+                    <th class="bookTable__cell" scope="col">Autor</th>
+                    <th class="bookTable__cell" scope="col">Wydawnictwo</th>
+                    <th class="bookTable__cell" scope="col">Rok wydania</th>
+                </tr>
+                <tr>
+                    <th class="bookTable__cell bookTable__cell--header" scope="row">Elementarz stylu w typografii</th>
+                    <td class="bookTable__cell">Robert Bringhurst</td>
+                    <td class="bookTable__cell">d2d.pl</td>
+                    <td class="bookTable__cell">2013</td>
+                </tr>
+                <tr>
+                    <th class="bookTable__cell bookTable__cell--header" scope="row">Człowiek i jego znaki</th>
+                    <td class="bookTable__cell">Adrian Frutiger</td>
+                    <td class="bookTable__cell">d2d.pl</td>
+                    <td class="bookTable__cell">2010</td>
+                </tr>
+                <tr>
+                    <th class="bookTable__cell bookTable__cell--header" scope="row">Widzieć/Wiedzieć</th>
+                    <td class="bookTable__cell">wielu autorów, red. Jacek Mrowczyk i Przemek Dębowski</td>
+                    <td class="bookTable__cell">Karakter</td>
+                    <td class="bookTable__cell">2011</td>
+                </tr>
+                <tr>
+                    <th class="bookTable__cell bookTable__cell--header" scope="row">Typografia książki. Podręcznik projektanta</th>
+                    <td class="bookTable__cell">Michael Mitchell i Susan Wightman</td>
+                    <td class="bookTable__cell">d2d.pl</td>
+                    <td class="bookTable__cell">2015</td>
+                </tr>
+            </table>
+        </div>
+        <section class="links" id="linki">
+            <h2 class="links__header">Linki</h2>
+            <p><a class="links__link" href="https://www.behance.net/joannameus">Portfolio na Behance</a></p>
+            <p><a class="links__link" href="https://www.facebook.com/asia.meus">Facebook</a></p>
+        </section>
+        <section class="gallery">
+            <p><button class="gallery__button js-changePhotoButton">Pokaż pierwsze przykładowe zdjęcie</button></p>
+            <p class="gallery__photo js-examplePhoto"></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© Asia Meuś 2020</p>
+    </footer>
+</body>
+
+</html>

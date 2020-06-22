@@ -1,0 +1,25 @@
+.bookTable {
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 1.4;
+    margin: 60px 0;
+    padding-top: 10px;
+}
+
+.bookTable__caption {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bookTable__cell {
+    border-bottom: 2px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+.bookTable__cell--header {
+    font-style: italic;
+    font-weight: normal;
+}

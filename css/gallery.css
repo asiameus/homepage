@@ -1,0 +1,16 @@
+.gallery__button {
+    background-color: #fcfcfc;
+    padding: 15px;
+    border: 2px solid #8d00eb;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gallery__button:hover {
+    border-color: black;
+}
+
+.gallery__button:active {
+    border-color: #7c7c7c;
+}
