@@ -1,4 +1,4 @@
-console.log("Siemaaaaa!");
+console.log("Siema!");
 
 let changePhotoButton = document.querySelector(".js-changePhotoButton");
 let examplePhoto = document.querySelector(".js-examplePhoto");
